@@ -7,7 +7,7 @@
 > Sometimes, a click is what you need to understand!
 
 > ## Hyperlink
-> The hyperlink of the website is tagged to the _About_ section of this repository.
+> The hyperlink of the website will be tagged soon. In the meantime, you can clone this repository, install dependencies from ```requirements.txt``` and run the command ```python main.py``` from your terminal.
 
 Thank You! \
 **Aditya VN Kadiyala**
