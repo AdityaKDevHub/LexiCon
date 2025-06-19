@@ -1,0 +1,157 @@
+/* Large Phones */
+@media (min-width: 719px) and (max-width: 1100px) {
+	#Loader1 {
+		top: 110px;
+		left: 320px;
+		width: 120px;
+		height: 120px;
+	}
+
+	#Loader2 {
+		top: 80px;
+		left: 290px;
+		width: 180px;
+		height: 180px;
+	}	
+
+	#Title {
+		top: 160px;
+		left: 360px;
+		font-size: 20px;
+	}
+
+	#summary {
+		top: 310px;
+	}
+
+	#prompt, #summary {
+		left: 3px;
+		width: 95vw;
+	}
+
+	#Gen {
+		left: 45vw;
+		top: 250px;
+	}
+
+}
+
+/*Small Phones */
+@media (min-width: 300px) and (max-width: 660px) {
+	body {height: 900px}
+
+	#Loader1 {
+		top: 110px;
+		left: 100px;
+		width: 120px;
+		height: 120px;
+	}
+
+	#Loader2 {
+		top: 80px;
+		left: 80px;
+		width: 180px;
+		height: 180px;
+	}	
+
+	#Title {
+		top: 160px;
+		left: 140px;
+		font-size: 20px;
+	}
+
+	#summary {
+		top: 310px;
+	}
+
+	#prompt, #summary {
+		left: -1px;
+		width: 90vw;
+	}
+
+	#Gen {
+		left: 140px;
+		top: 250px;
+	}
+}
+
+@media (min-width: 660px) and (max-width: 719px) {
+	#Creator {
+		right: -320px;
+	}
+}
+
+/* Tablets */
+@media (min-width: 1000px) and (max-width: 1199px) {
+	#Loader1 {
+		top: 110px;
+		left: 410px;
+		width: 120px;
+		height: 120px;
+	}
+
+	#Loader2 {
+		top: 80px;
+		left: 380px;
+		width: 180px;
+		height: 180px;
+	}	
+
+	#Title {
+		top: 160px;
+		left: 450px;
+		font-size: 20px;
+	}
+
+	#summary {
+		left: 620px;
+	}
+
+	#prompt, #summary {
+		width: 35vw;
+		top: 20px;
+	}
+
+	#Gen {
+		left: 450px;
+		top: 90px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1532px) {
+	#Title {
+		left: 575px;
+	}
+}
+
+/*Desktops*/
+@media (min-width: 1532px) and (max-width: 2620px) {
+	#Loader1 {
+		top: 70px;
+		left: 660px;
+	}
+
+	#Loader2 {
+		top: 40px;
+		left: 630px;
+	}	
+
+	#Title {
+		top: 120px;
+		left: 700px;
+	}
+
+	#summary {
+		left: 980px;
+	}
+
+	#prompt, #summary {
+		width: 35vw;
+		top: 20px;
+	}
+
+	#Gen {
+		left: 730px;
+		top: 90px;
+	}
+}
